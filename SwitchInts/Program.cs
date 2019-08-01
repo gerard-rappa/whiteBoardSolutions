@@ -10,7 +10,6 @@ namespace SwitchInts{
         }
         static void Main(string[] args){
             Console.WriteLine("Switch Ints!");
-            switchInts(-32, -3);
         }
     }
 }

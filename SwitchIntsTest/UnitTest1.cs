@@ -7,13 +7,13 @@ namespace SwitchIntsTest
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void normal()
         {
-            Assert.AreEqual("0, 12", Program.switchInts(12, 0));
+            Assert.AreEqual("8, 12", Program.switchInts(12, 8));
         }
 
         [TestMethod]
-        public void normal()
+        public void normalZero()
         {
             Assert.AreEqual("0, 12", Program.switchInts(12, 0));
         }

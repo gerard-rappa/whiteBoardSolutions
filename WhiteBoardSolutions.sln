@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchInts", "SwitchInts\Sw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchIntsTest", "SwitchIntsTest\SwitchIntsTest.csproj", "{B1BCAC91-E5D3-4EED-9CBC-4413936E8E34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInt", "ReverseInt\ReverseInt.csproj", "{1A158277-2C42-4D6D-B1A7-9B6816A042AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseIntTest", "ReverseIntTest\ReverseIntTest.csproj", "{727892D1-8140-42FD-B6E4-77A48B1CD7D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{B1BCAC91-E5D3-4EED-9CBC-4413936E8E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1BCAC91-E5D3-4EED-9CBC-4413936E8E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1BCAC91-E5D3-4EED-9CBC-4413936E8E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A158277-2C42-4D6D-B1A7-9B6816A042AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A158277-2C42-4D6D-B1A7-9B6816A042AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A158277-2C42-4D6D-B1A7-9B6816A042AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A158277-2C42-4D6D-B1A7-9B6816A042AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727892D1-8140-42FD-B6E4-77A48B1CD7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727892D1-8140-42FD-B6E4-77A48B1CD7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727892D1-8140-42FD-B6E4-77A48B1CD7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727892D1-8140-42FD-B6E4-77A48B1CD7D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
