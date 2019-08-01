@@ -27,9 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamelCase", "CamelCase\Came
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamelCaseTest", "CamelCaseTest\CamelCaseTest.csproj", "{1A0059D8-37B3-4B54-ADCB-61196661C915}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "reverseString\ReverseString.csproj", "{0EE6AD85-73CB-4D79-9D6B-6B0DE9C8C50A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseString", "reverseString\ReverseString.csproj", "{0EE6AD85-73CB-4D79-9D6B-6B0DE9C8C50A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseStringTest", "ReverseStringTest\ReverseStringTest.csproj", "{4DBE5980-CB58-4746-886C-31882C14DDE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseStringTest", "ReverseStringTest\ReverseStringTest.csproj", "{4DBE5980-CB58-4746-886C-31882C14DDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchInts", "SwitchInts\SwitchInts.csproj", "{11587BDB-EF12-4687-BE7F-6BFEAC58C503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchIntsTest", "SwitchIntsTest\SwitchIntsTest.csproj", "{B1BCAC91-E5D3-4EED-9CBC-4413936E8E34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{4DBE5980-CB58-4746-886C-31882C14DDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DBE5980-CB58-4746-886C-31882C14DDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DBE5980-CB58-4746-886C-31882C14DDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11587BDB-EF12-4687-BE7F-6BFEAC58C503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11587BDB-EF12-4687-BE7F-6BFEAC58C503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11587BDB-EF12-4687-BE7F-6BFEAC58C503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11587BDB-EF12-4687-BE7F-6BFEAC58C503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BCAC91-E5D3-4EED-9CBC-4413936E8E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BCAC91-E5D3-4EED-9CBC-4413936E8E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BCAC91-E5D3-4EED-9CBC-4413936E8E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BCAC91-E5D3-4EED-9CBC-4413936E8E34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
