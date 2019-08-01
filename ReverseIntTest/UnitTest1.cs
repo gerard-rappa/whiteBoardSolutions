@@ -28,7 +28,7 @@ namespace ReverseIntTest{
 
         [TestMethod]
         public void negative(){
-            Assert.AreEqual(-655, Program.reverseInt(-556));
+            Assert.AreEqual(-1, Program.reverseInt(-1));
         }
     }
 }
