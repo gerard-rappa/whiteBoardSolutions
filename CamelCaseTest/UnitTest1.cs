@@ -1,40 +1,32 @@
 using CamelCase;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CamelCaseTest
-{
+namespace CamelCaseTest{
     [TestClass]
-    public class UnitTest1
-    {
+    public class UnitTest1{
         [TestMethod]
-        public void blankString()
-        {
+        public void blankString(){
             Assert.AreEqual("", Program.toCamel(""));
         }
         [TestMethod]
-        public void singleChars()
-        {
+        public void singleChars(){
             Assert.AreEqual("aBC", Program.toCamel("     A                    b  c             "));
         }
         [TestMethod]
-        public void words()
-        {
+        public void words(){
             Assert.AreEqual("helloMyNameIsGerry", Program.toCamel("HELLO  mY NaMe is gerrY                       "));
         }
         [TestMethod]
-        public void specialCharsOnly()
-        {
+        public void specialCharsOnly(){
             Assert.AreEqual("", Program.toCamel("!!!!$&^%$*&^(^$!!!!!"));
         }
         [TestMethod]
-        public void charsSpecialsAndWords()
-        {
+        public void charsSpecialsAndWords(){
             Assert.AreEqual("aBb", Program.toCamel("@@@a!!!!!!bb            "));
         }
 
         [TestMethod]
-        public void veryStrangeChars()
-        {
+        public void veryStrangeChars(){
             Assert.AreEqual("aaBbCc", Program.toCamel("??????aa BB   ? cC"));
         }
     }

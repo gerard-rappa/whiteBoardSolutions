@@ -1,32 +1,26 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ReverseString;
 
-namespace ReverseStringTest
-{
+namespace ReverseStringTest{
     [TestClass]
-    public class UnitTest1
-    {
+    public class UnitTest1{
         [TestMethod]
-        public void noChars()
-        {
+        public void noChars(){
             Assert.AreEqual("", Program.reverseString(""));
         }
 
         [TestMethod]
-        public void oneChars()
-        {
+        public void oneChars(){
             Assert.AreEqual("a", Program.reverseString("a"));
         }
 
         [TestMethod]
-        public void normalCase()
-        {
+        public void normalCase(){
             Assert.AreEqual("appaR drareG", Program.reverseString("Gerard Rappa"));
         }
 
         [TestMethod]
-        public void nullCase()
-        {
+        public void nullCase(){
             Assert.AreEqual(null, Program.reverseString(null));
         }
     }
