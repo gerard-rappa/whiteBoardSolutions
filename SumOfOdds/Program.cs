@@ -6,15 +6,16 @@ namespace SumOfOdds
     {
         public static int SumOfOdds(int x)
         {
-            for (int i = 0; i <= x; i++)
+            int result = 0;
+            for (int i = 1; i <= x; i+=2)
             {
-
+                result += i;
             }
-            return x;
+            return result;
         }
         public static void Main(string[] args)
         {
-           
+            Console.WriteLine("Sum Of Odds");
         }
     }
 }

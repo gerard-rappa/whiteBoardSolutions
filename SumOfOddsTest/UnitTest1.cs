@@ -7,24 +7,27 @@ namespace SumOfOddsTest
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void odd()
         {
-            Assert.AreEqual(10, Program.SumOfOdds(10));
+            Assert.AreEqual(9, Program.SumOfOdds(5));
         }
+
         [TestMethod]
-        public void TestMethod2()//should fail
+        public void zero()
         {
-            //Assert.AreEqual(11, Program.SumOfOdds(10));
+            Assert.AreEqual(0, Program.SumOfOdds(0));
         }
+
         [TestMethod]
-        public void TestMethod3()//should fail
+        public void even()
         {
-            //Assert.AreEqual(11, Program.SumOfOdds(12));
+            Assert.AreEqual(25, Program.SumOfOdds(10));
         }
+
         [TestMethod]
-        public void TestMethod4()
+        public void one()
         {
-            Assert.AreEqual(11, Program.SumOfOdds(11));
+            Assert.AreEqual(1, Program.SumOfOdds(1));
         }
     }
 }
