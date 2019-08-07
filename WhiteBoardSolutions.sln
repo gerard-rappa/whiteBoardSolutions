@@ -31,13 +31,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseString", "reverseStr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseStringTest", "ReverseStringTest\ReverseStringTest.csproj", "{4DBE5980-CB58-4746-886C-31882C14DDE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchInts", "SwitchInts\SwitchInts.csproj", "{11587BDB-EF12-4687-BE7F-6BFEAC58C503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchInts", "SwitchInts\SwitchInts.csproj", "{11587BDB-EF12-4687-BE7F-6BFEAC58C503}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchIntsTest", "SwitchIntsTest\SwitchIntsTest.csproj", "{B1BCAC91-E5D3-4EED-9CBC-4413936E8E34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchIntsTest", "SwitchIntsTest\SwitchIntsTest.csproj", "{B1BCAC91-E5D3-4EED-9CBC-4413936E8E34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInt", "ReverseInt\ReverseInt.csproj", "{1A158277-2C42-4D6D-B1A7-9B6816A042AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseInt", "ReverseInt\ReverseInt.csproj", "{1A158277-2C42-4D6D-B1A7-9B6816A042AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseIntTest", "ReverseIntTest\ReverseIntTest.csproj", "{727892D1-8140-42FD-B6E4-77A48B1CD7D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseIntTest", "ReverseIntTest\ReverseIntTest.csproj", "{727892D1-8140-42FD-B6E4-77A48B1CD7D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort\QuickSort.csproj", "{6BEB7D1C-E93B-4BBB-BA4B-DCE74B9EBE21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{727892D1-8140-42FD-B6E4-77A48B1CD7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{727892D1-8140-42FD-B6E4-77A48B1CD7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{727892D1-8140-42FD-B6E4-77A48B1CD7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEB7D1C-E93B-4BBB-BA4B-DCE74B9EBE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEB7D1C-E93B-4BBB-BA4B-DCE74B9EBE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEB7D1C-E93B-4BBB-BA4B-DCE74B9EBE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEB7D1C-E93B-4BBB-BA4B-DCE74B9EBE21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
