@@ -39,7 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseInt", "ReverseInt\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseIntTest", "ReverseIntTest\ReverseIntTest.csproj", "{727892D1-8140-42FD-B6E4-77A48B1CD7D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort\QuickSort.csproj", "{6BEB7D1C-E93B-4BBB-BA4B-DCE74B9EBE21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "QuickSort\QuickSort.csproj", "{6BEB7D1C-E93B-4BBB-BA4B-DCE74B9EBE21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiveDistinctCount", "GiveDistinctCount\GiveDistinctCount.csproj", "{C049047F-D9A3-4064-8206-42B5C4CB0D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiveDistinctElementsTest", "GiveDistinctElementsTest\GiveDistinctElementsTest.csproj", "{509FEC4D-2937-4E5E-9CEF-6CE3608D9D12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{6BEB7D1C-E93B-4BBB-BA4B-DCE74B9EBE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BEB7D1C-E93B-4BBB-BA4B-DCE74B9EBE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BEB7D1C-E93B-4BBB-BA4B-DCE74B9EBE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C049047F-D9A3-4064-8206-42B5C4CB0D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C049047F-D9A3-4064-8206-42B5C4CB0D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C049047F-D9A3-4064-8206-42B5C4CB0D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C049047F-D9A3-4064-8206-42B5C4CB0D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509FEC4D-2937-4E5E-9CEF-6CE3608D9D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509FEC4D-2937-4E5E-9CEF-6CE3608D9D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509FEC4D-2937-4E5E-9CEF-6CE3608D9D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509FEC4D-2937-4E5E-9CEF-6CE3608D9D12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
