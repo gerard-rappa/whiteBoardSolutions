@@ -9,22 +9,22 @@ namespace PrimeNumbersTest
         [TestMethod]
         public void zero()
         {
-            Assert.AreEqual(false, PrimeNumbers.Program.isPrime(0));
+            Assert.IsFalse(PrimeNumbers.Program.isPrime(0));
         }
         [TestMethod]
         public void negative()
         {
-            Assert.AreEqual(false, PrimeNumbers.Program.isPrime(-10));
+            Assert.IsFalse(PrimeNumbers.Program.isPrime(-10));
         }
         [TestMethod]
         public void two()
         {
-            Assert.AreEqual(true, PrimeNumbers.Program.isPrime(2));
+            Assert.IsTrue(PrimeNumbers.Program.isPrime(2));
         }
         [TestMethod]
         public void largePrime()
         {
-            Assert.AreEqual(true, PrimeNumbers.Program.isPrime(13441));
+            Assert.IsTrue(PrimeNumbers.Program.isPrime(13441));
         }
     }
 }
