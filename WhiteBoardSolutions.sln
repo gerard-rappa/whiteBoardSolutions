@@ -49,9 +49,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumbers", "PrimeNumber
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumbersTest", "PrimeNumbersTest\PrimeNumbersTest.csproj", "{0818AAA6-334E-4950-A226-6B401FE5FBF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterCount", "LetterCount\LetterCount.csproj", "{D02A6915-AC82-4BC1-883D-2263BB3F42A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetterCount", "LetterCount\LetterCount.csproj", "{D02A6915-AC82-4BC1-883D-2263BB3F42A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterCountTest", "LetterCountTest\LetterCountTest.csproj", "{87529F48-FD2B-4B4B-84FE-A077551507AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetterCountTest", "LetterCountTest\LetterCountTest.csproj", "{87529F48-FD2B-4B4B-84FE-A077551507AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{E0F6F669-1F0B-4EA7-9842-B3ED70C2D46B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindSubstring", "FindSubstring\FindSubstring.csproj", "{17E31959-194E-4226-8EE5-904C7A21FF48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindSubstring.Test", "FindSubstring.Test\FindSubstring.Test.csproj", "{1DF8F480-99B9-4805-8393-7B6457522978}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +165,18 @@ Global
 		{87529F48-FD2B-4B4B-84FE-A077551507AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87529F48-FD2B-4B4B-84FE-A077551507AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87529F48-FD2B-4B4B-84FE-A077551507AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F6F669-1F0B-4EA7-9842-B3ED70C2D46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F6F669-1F0B-4EA7-9842-B3ED70C2D46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F6F669-1F0B-4EA7-9842-B3ED70C2D46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F6F669-1F0B-4EA7-9842-B3ED70C2D46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E31959-194E-4226-8EE5-904C7A21FF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E31959-194E-4226-8EE5-904C7A21FF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E31959-194E-4226-8EE5-904C7A21FF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E31959-194E-4226-8EE5-904C7A21FF48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF8F480-99B9-4805-8393-7B6457522978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF8F480-99B9-4805-8393-7B6457522978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF8F480-99B9-4805-8393-7B6457522978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF8F480-99B9-4805-8393-7B6457522978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
